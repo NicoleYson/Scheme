@@ -14,5 +14,5 @@
       (op (car l) (reduce op (cdr l) id)) )))
       
 (define sum
-  (lambda f l)
+  (lambda (f l)
     (reduce + (map f l) 0) ))
