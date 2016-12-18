@@ -1,3 +1,5 @@
+#lang Racket
+;this checks if a list contains a repeating pattern
 (define (check-X l)
 	(cond
 		;if the list (l) is empty, then there is no pattern
