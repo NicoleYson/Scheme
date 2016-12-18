@@ -2,7 +2,7 @@
   (lambda (f l) ;takes two args- a function and a list
     (if (null? l)
       '()
-      (cons(f car l)) (map f (cdr l))) ;builds a new list by applying the function to every element of the old list
+      (cons(f (car l)) (map f (cdr l))) ;builds a new list by applying the function to every element of the old list
      )
     )
   )
