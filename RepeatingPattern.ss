@@ -20,4 +20,4 @@
 		(cond
 			((equal? (length l) 1) true)
 			(else (check-X (rest l)))))
-(else false)))
+	(else false)))
