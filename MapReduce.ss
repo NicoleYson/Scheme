@@ -1,3 +1,4 @@
+#lang racket
 (define map
   (lambda (f l) ;takes two args- a function and a list
     (if (null? l)
